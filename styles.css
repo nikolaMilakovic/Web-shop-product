@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {    
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 2 rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 300px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.section-title {
+    width: 100%;
+}
+
+.infoWrapper p {
+    font-family: 'Courier New', Courier, monospace !important;
+    font-weight: 500;
+    color: black !important;
+}
+
+.infoWrapper:hover {
+    cursor: pointer;
+}
+
+.infoWrapper {
+    z-index: 999;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.card img {
+    transition: .4s ease-in-out;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .4s ease-in-out;
+}
+
+.section-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+.productInfo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.productInfo div {
+    align-items: center;
+}
+
+.productInfo div {
+    overflow: hidden;
+}
+
+#productImg {
+    height: 500px;
+}
+
+.pr {
+    margin-inline: auto;
+    margin-top: 50px;
+}

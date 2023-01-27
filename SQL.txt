@@ -1,0 +1,33 @@
+CREATE TABLE product (
+	product_id serial PRIMARY KEY,
+	name VARCHAR (50) NOT NULL,
+	price VARCHAR (50) NOT NULL,
+    imageUrl VARCHAR,
+);
+
+INSERT INTO product (name, price,imageUrl)
+VALUES ('AEROREADY SHIRT', 25,'https://resources-76-2019.s3.amazonaws.com/img/product1.jpg');
+
+INSERT INTO product (name, price,imageUrl)
+VALUES ('WIRELESS EARBUDS', 100,'https://resources-76-2019.s3.amazonaws.com/img/product2.jpg');
+
+INSERT INTO product (name, price,imageUrl)
+VALUES ('HODDED PARKA', 45,'https://resources-76-2019.s3.amazonaws.com/img/product3.jpg');
+
+INSERT INTO product (name, price,imageUrl)
+VALUES ('METAL BOTTLE', 20,'https://resources-76-2019.s3.amazonaws.com/img/product4.jpg');
+
+INSERT INTO product (name, price,imageUrl)
+VALUES ('METAL SUNGLASSES', 40,'https://resources-76-2019.s3.amazonaws.com/img/product5.jpg');
+
+INSERT INTO product (name, price,imageUrl)
+VALUES ('BACK HAT', 50,'https://resources-76-2019.s3.amazonaws.com/img/product6.jpg');
+
+INSERT INTO product (name, price,imageUrl)
+VALUES ('BACKPACK', 70,'https://resources-76-2019.s3.amazonaws.com/img/product7.jpg');
+
+INSERT INTO product (name, price,imageUrl)
+VALUES ('ULTRABOOST 22', 70,'https://resources-76-2019.s3.amazonaws.com/img/product8.jpg');
+
+
+SELECT * FROM product;
